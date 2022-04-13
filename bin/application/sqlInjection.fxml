@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.sqlInjectionController">
+   <children>
+      <Button fx:id="btn1" layoutX="354.0" layoutY="78.0" mnemonicParsing="false" onAction="#btn1_click" prefHeight="75.0" prefWidth="88.0" text="Login" />
+      <Button fx:id="btn2" layoutX="216.0" layoutY="388.0" mnemonicParsing="false" onAction="#btn2_click" prefHeight="75.0" prefWidth="122.0" text="Temizle" />
+      <TextField fx:id="textfield1" layoutX="186.0" layoutY="78.0" promptText="deneme@iste.edu.tr" />
+      <PasswordField fx:id="password1" layoutX="186.0" layoutY="125.0" promptText="Password" />
+      <TextArea fx:id="textarea1" layoutX="112.0" layoutY="250.0" prefHeight="118.0" prefWidth="330.0" />
+      <Text layoutX="112.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UserName:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="117.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

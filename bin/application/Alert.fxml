@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="application.AlertController">
+   <children>
+      <Button fx:id="btn1" layoutX="105.0" layoutY="54.0" mnemonicParsing="false" onAction="#btn1_Click" prefHeight="100.0" prefWidth="100.0" text="Button" />
+      <Button fx:id="btn2" layoutX="105.0" layoutY="179.0" mnemonicParsing="false" onAction="#btn2_Click" prefHeight="100.0" prefWidth="100.0" text="Button" />
+      <Button fx:id="btn3" layoutX="105.0" layoutY="308.0" mnemonicParsing="false" onAction="#btn3_Click" prefHeight="100.0" prefWidth="100.0" text="Button" />
+      <Button fx:id="btn4" layoutX="253.0" layoutY="54.0" mnemonicParsing="false" onAction="#btn4_Click" prefHeight="100.0" prefWidth="100.0" text="Button" />
+      <Button fx:id="btn5" layoutX="253.0" layoutY="179.0" mnemonicParsing="false" onAction="#btn5_Click" prefHeight="100.0" prefWidth="100.0" text="Button" />
+      <Button fx:id="btn6" layoutX="253.0" layoutY="308.0" mnemonicParsing="false" onAction="#btn6_Click" prefHeight="100.0" prefWidth="100.0" text="Button" />
+   </children>
+</AnchorPane>

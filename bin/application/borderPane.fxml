@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="application.borderPaneController">
+   <children>
+      <BorderPane layoutX="99.0" layoutY="180.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <right>
+            <AnchorPane prefHeight="500.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox layoutX="-5.0" layoutY="116.0" prefHeight="500.0" prefWidth="100.0" style="-fx-background-color: darkgray;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: white;" text="Home">
+                           <VBox.margin>
+                              <Insets top="3.0" />
+                           </VBox.margin>
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/outline_home_black_24dp.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="11.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: white;" text="Search">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/outline_search_black_24dp.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <VBox.margin>
+                              <Insets top="3.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="61.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: white;" text="User">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/outline_perm_identity_black_24dp.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <VBox.margin>
+                              <Insets top="3.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="111.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: white;" text="Settings">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/outline_settings_black_24dp.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <VBox.margin>
+                              <Insets top="3.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="161.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: white;" text="Info">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/outline_info_black_24dp.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <VBox.margin>
+                              <Insets top="3.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="211.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: white;" text="Okey">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/outline_done_black_24dp.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <VBox.margin>
+                              <Insets top="3.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="261.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: white;" text="Info?">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/outline_help_black_24dp.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <VBox.margin>
+                              <Insets bottom="3.0" top="3.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </right>
+         <top>
+            <AnchorPane prefHeight="22.0" prefWidth="500.0" style="-fx-background-color: darkgray;" BorderPane.alignment="CENTER">
+               <children>
+                  <MenuBar prefHeight="30.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="Dosya">
+                        <items>
+                          <MenuItem fx:id="menuitem_kapat" mnemonicParsing="false" onAction="#menuitem_kapat_Click" text="Kapat">
+                                 <graphic>
+                                    <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@img/outline_close_black_24dp.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </MenuItem>
+                              <MenuItem fx:id="menuitem_kaydet" mnemonicParsing="false" onAction="#menuitem_kaydet_Click" text="Kaydet">
+                                 <graphic>
+                                    <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@img/outline_save_black_24dp.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </MenuItem>
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Düzenle">
+                        <items>
+                          <MenuItem fx:id="menuitem_sil" mnemonicParsing="false" onAction="#menuitem_sil_Click" text="Sil">
+                                 <graphic>
+                                    <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@img/outline_delete_black_24dp.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </MenuItem>
+                              <MenuItem mnemonicParsing="false" text="Kopyala">
+                                 <graphic>
+                                    <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@img/outline_content_copy_black_24dp.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </MenuItem>
+                              <MenuItem mnemonicParsing="false" text="Yapıştır">
+                                 <graphic>
+                                    <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@img/outline_content_paste_black_24dp.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </MenuItem>
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Yardım">
+                        <items>
+                          <MenuItem fx:id="menuitem_yardım" mnemonicParsing="false" onAction="#menuitem_yardım_Click" text="Yardım">
+                                 <graphic>
+                                    <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@img/outline_help_outline_black_24dp.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </MenuItem>
+                        </items>
+                      </Menu>
+                    </menus>
+                  </MenuBar>
+               </children>
+            </AnchorPane>
+         </top>
+         <bottom>
+            <AnchorPane prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="170.0" layoutY="10.0" text="Mustafa ARSLAN">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </bottom>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: darkgray;" BorderPane.alignment="CENTER">
+               <children>
+                  <CheckBox fx:id="checkbox1" layoutX="30.0" layoutY="48.0" mnemonicParsing="false" onAction="#checkbox1_Click" text="CheckBox" />
+                  <CheckBox fx:id="checkbox2" layoutX="157.0" layoutY="48.0" mnemonicParsing="false" onAction="#checkbox2_Click" text="CheckBox" />
+                  <RadioButton fx:id="radiobutton1" layoutX="30.0" layoutY="96.0" mnemonicParsing="false" onAction="#radiobutton1_Click" text="RadioButton" />
+                  <RadioButton fx:id="radiobutton2" layoutX="157.0" layoutY="96.0" mnemonicParsing="false" onAction="#radiobutton2_Click" text="RadioButton" />
+                  <ToggleButton fx:id="togglebutton1" layoutX="30.0" layoutY="142.0" mnemonicParsing="false" onAction="#togglebutton1_Click" text="ToggleButton" />
+                  <ToggleButton fx:id="togglebutton2" layoutX="157.0" layoutY="142.0" mnemonicParsing="false" onAction="#togglebutton2_Click" text="ToggleButton" />
+                  <Button fx:id="btn1" layoutX="30.0" layoutY="213.0" mnemonicParsing="false" onAction="#btn1_Click" prefHeight="50.0" prefWidth="100.0" text="Button" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

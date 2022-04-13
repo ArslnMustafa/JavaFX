@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.denemeController">
+   <children>
+      <Button fx:id="btn_Hesapla" layoutX="360.0" layoutY="130.0" mnemonicParsing="false" onAction="#btn_Hesapla_Click" text="Hesapla" />
+      <Button fx:id="btn_Hesapla2" layoutX="300.0" layoutY="150.0" mnemonicParsing="false" onAction="#btn_Hesapla_Click2" text="index" />
+      <TextField fx:id="lbl_Boy" layoutX="81.0" layoutY="84.0" promptText="Boyunuzu yazınız." />
+      <TextField fx:id="lbl_Kilo" layoutX="270.0" layoutY="84.0" promptText="Kilonuzu yazınız." />
+      <ListView fx:id="lv_Ad" layoutX="79.0" layoutY="205.0" prefHeight="200.0" prefWidth="59.0" />
+      <ListView fx:id="lv_Soyad" layoutX="149.0" layoutY="205.0" prefHeight="200.0" prefWidth="59.0" />
+      <ListView fx:id="lv_Boy" layoutX="221.0" layoutY="205.0" prefHeight="200.0" prefWidth="59.0" />
+      <ListView fx:id="lv_Kilo" layoutX="291.0" layoutY="205.0" prefHeight="200.0" prefWidth="59.0" />
+      <Label layoutX="100.0" layoutY="178.0" text="AD" />
+      <Label layoutX="159.0" layoutY="178.0" text="SOYAD" />
+      <Label layoutX="243.0" layoutY="178.0" text="BOY" />
+      <Label layoutX="308.0" layoutY="178.0" text="KİLO" />
+      <ListView fx:id="lv_Index" layoutX="362.0" layoutY="205.0" prefHeight="200.0" prefWidth="59.0" />
+      <Label layoutX="375.0" layoutY="178.0" text="İNDEX" />
+      <TextField fx:id="lbl_Ad" layoutX="81.0" layoutY="45.0" promptText="Adınızı yazınız." />
+      <TextField fx:id="lbl_Soyad" layoutX="270.0" layoutY="45.0" promptText="Soyadınızı yazınız." />
+      <Label fx:id="lbl_Index" layoutX="81.0" layoutY="429.0" />
+      
+      
+   </children>
+</AnchorPane>
